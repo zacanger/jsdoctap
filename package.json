@@ -11,9 +11,10 @@
   "main": "lib/index.js",
   "bin": "bin/index.js",
   "scripts": {
-    "test": "npm run test:lint && npm run test:mocha",
+    "test": "npm run test:lint && npm run test:tap",
     "test:lint": "eslint -c .eslintrc.json lib bin test",
-    "test:mocha": "bash run-examples"
+    "test:examples": "./run-examples.sh",
+    "test:tap": "tap test/*.test.js"
   },
   "homepage": "https://github.com/zacanger/jsdoctap#readme",
   "repository": {
@@ -47,8 +48,7 @@
     "eslint-plugin-node": "5.1.1",
     "eslint-plugin-promise": "3.5.0",
     "eslint-plugin-standard": "3.0.1",
-    "eslint-plugin-unicorn": "2.1.2",
-    "mocha": "3.5.0"
+    "eslint-plugin-unicorn": "2.1.2"
   },
   "engines": {
     "node": ">=6.0.0"
