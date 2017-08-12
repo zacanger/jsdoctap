@@ -1,6 +1,6 @@
 {
   "name": "jsdoctap",
-  "description": "Doctests using JSDOC examples and Node-Tap",
+  "description": "Doctests using JSDoc examples and Node-Tap",
   "version": "0.0.1",
   "author": {
     "name": "Zac Anger",
