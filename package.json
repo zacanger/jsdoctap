@@ -1,38 +1,40 @@
 {
-  "name": "jsdoctest",
-  "version": "1.7.0",
-  "description": "Run jsdoc examples as doctests",
-  "main": "lib/index.js",
-  "bin": "bin/jsdoctest",
-  "scripts": {
-    "bin": "./bin/jsdoctest.js",
-    "test": "JSDOCTEST_DISABLE=true mocha --require blanket -R mocha-spec-cov-alt && bash run-examples",
-    "coverage": "JSDOCTEST_DISABLE=true mocha --require blanket -R html-cov > coverage.html"
+  "name": "jsdoctap",
+  "description": "Doctests using JSDOC examples and Node-Tap",
+  "version": "0.0.1",
+  "author": {
+    "name": "Zac Anger",
+    "email": "zac@zacanger.com",
+    "url": "http://zacanger.com"
   },
+  "license": "WTFPL",
+  "main": "lib/index.js",
+  "bin": "bin/index.js",
+  "scripts": {
+    "test": "bash run-examples"
+  },
+  "homepage": "https://github.com/zacanger/jsdoctap#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yamadapc/jsdoctest.git"
+    "url": "https://github.com/zacanger/jsdoctap.git"
   },
+  "bugs": "https://github.com/zacanger/jsdoctap/issues",
   "keywords": [
-    "test",
-    "jsdoc",
     "doctests",
+    "jsdoc",
+    "node-tap",
+    "tap",
+    "test",
     "testing",
     "workflow"
   ],
-  "author": "Pedro Tacla Yamada <tacla.yamada@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yamadapc/jsdoctest/issues"
-  },
-  "homepage": "https://github.com/yamadapc/jsdoctest",
   "dependencies": {
     "commander": "^2.8.1",
     "dox": "^0.8",
     "js-beautify": "^1.5.4",
     "lodash": "^4.0.1",
     "should": "^10.0.0",
-    "tape": "4.8.0",
+    "tap": "10.7.1",
     "uglify-js": "^3.0.13"
   },
   "devDependencies": {
@@ -56,5 +58,8 @@
         "lcovOutput": "lcov"
       }
     }
+  },
+  "engines": {
+    "node": ">=6.0.0"
   }
 }
