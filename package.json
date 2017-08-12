@@ -29,20 +29,20 @@
     "workflow"
   ],
   "dependencies": {
-    "commander": "^2.8.1",
-    "dox": "^0.8",
-    "js-beautify": "^1.5.4",
-    "lodash": "^4.0.1",
-    "should": "^10.0.0",
+    "commander": "2.11.0",
+    "dox": "0.9",
+    "js-beautify": "1.6.14",
+    "lodash": "4.17.4",
+    "should": "11.2.1",
     "tap": "10.7.1",
-    "uglify-js": "^3.0.13"
+    "uglify-js": "3.0.27"
   },
   "devDependencies": {
-    "babel-register": "^6.9.0",
-    "blanket": "1.1.7",
-    "bluebird": "^3.2.1",
-    "mocha": "^3.3.0",
-    "mocha-spec-cov-alt": "^1.1.1"
+    "babel-register": "6.24.1",
+    "blanket": "1.2.3",
+    "bluebird": "3.5.0",
+    "mocha": "3.5.0",
+    "mocha-spec-cov-alt": "1.1.1"
   },
   "config": {
     "blanket": {
