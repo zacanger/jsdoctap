@@ -1,4 +1,3 @@
-'use strict';
 /**
  * @module {CommonJS} add-example
  */
@@ -10,13 +9,13 @@
  * @param {Number} y
  *
  * @example
- *    add(10, 20)
- *    // => 30
- *    add(10, 50) // => 60
- *    10 + add(10, 50) // => 70
+ * add(10, 20)
+ * // => 30
+ * add(10, 50) // => 60
+ * 10 + add(10, 50) // => 70
  */
 
-function add(x, y) {
-  return x + y;
-}
-exports.add = add;
+const add = (a, b) =>
+  a + b
+
+exports.add = add
