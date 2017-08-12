@@ -1,5 +1,11 @@
 # jsdoctap
 
+## WIP
+
+**DOESN'T CURRENTLY DO ANYTHING**
+
+--------
+
 Doctests using JSDoc examples and node-tap.
 
 Based on the hard work of [@yamadapc](https://github.com/yamadapc) and [this
