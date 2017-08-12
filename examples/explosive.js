@@ -4,4 +4,4 @@
  *   // => here
  */
 
-function shit() { return 'wat'; }
+const shit = () => 'wat'

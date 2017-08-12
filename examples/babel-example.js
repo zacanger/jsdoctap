@@ -1,12 +1,10 @@
-'use strict';
-
-class HereIAm {
+class Foo {
   /**
    * You do stuff
    * @example
-   *   new HereIAm().method() // => 3
+   * new Foo().thing() // => 3
    */
-  method() {
-    return 1 + 2;
+  thing () {
+    return 1 + 2
   }
 }
