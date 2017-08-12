@@ -13,4 +13,4 @@ Build based on the hard work of [@yamadapc](https://github.com/yamadapc) and
 
 ## License:
 
-[WTFPL](./LICENSE.md)
+[MIT](./LICENSE.md)
