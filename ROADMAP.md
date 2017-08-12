@@ -1,3 +1,4 @@
+* Proper output (tap's output)
 * Babel support
 * Fix for multi-line examples
 * Remove lodash?
