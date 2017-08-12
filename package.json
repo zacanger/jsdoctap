@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "bin": "bin/jsdoctest",
   "scripts": {
-    "bin": "./bin/jsdoctest",
+    "bin": "./bin/jsdoctest.js",
     "test": "JSDOCTEST_DISABLE=true mocha --require blanket -R mocha-spec-cov-alt && bash run-examples",
     "coverage": "JSDOCTEST_DISABLE=true mocha --require blanket -R html-cov > coverage.html"
   },
@@ -32,6 +32,7 @@
     "js-beautify": "^1.5.4",
     "lodash": "^4.0.1",
     "should": "^10.0.0",
+    "tape": "4.8.0",
     "uglify-js": "^3.0.13"
   },
   "devDependencies": {
