@@ -51,7 +51,7 @@ Line breaks between the call and the comment are fine:
 
 ```
 
-See the [examples](./examples) and the [roadmap](./ROADMAP.md)
+See the [examples](./examples) and the [roadmap](./ROADMAP.md).
 
 ## License
 
