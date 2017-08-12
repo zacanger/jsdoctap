@@ -4,7 +4,7 @@ const _ = require('lodash')
  * Runs _.map
  *
  * @example
- * map([1, 2, 3, 4], (a) => x + 10) //=> [11, 12, 13, 14]
+ * map([1, 2, 3, 4], (a) => a + 10) //=> [11, 12, 13, 14]
  */
 
 const map = (a, f) =>
