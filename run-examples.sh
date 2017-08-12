@@ -3,6 +3,7 @@
 for i in examples/*; do
   printf "$i..."
   tap --node-arg=-r . $i > /dev/null
+  # ./bin/index.js $i > /dev/null
   ecode=$?
   if [[ $i == *"failing"* ]] || [[ $i == *"explosive"* ]] ||
     [[ $i == *"explode"* ]] || [[ $i == *"returns-promise"* ]]; then
