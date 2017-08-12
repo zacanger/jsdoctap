@@ -16,8 +16,9 @@
  *   // async => 'something else'
  */
 
-function createResource() {
+function createResource () {
   return new Promise((resolve) => {
-    resolve('something');
-  });
+    resolve('something')
+  })
 }
+module.exports = createResource
