@@ -6,7 +6,7 @@
 
 --------
 
-Doctests using JSDoc examples and node-tap.
+Doctests using JSDoc examples with TAP-compatible output.
 
 Based on the hard work of [@yamadapc](https://github.com/yamadapc) and [this
 project](https://github.com/yamadapc/jsdoctest).
