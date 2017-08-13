@@ -2,6 +2,10 @@
 
 ## WIP
 
+* [Examples](./examples)
+* [Roadmap](./ROADMAP.md)
+* [Changes](./CHANGELOG.md)
+
 This is _super_ rough right now, but it does seem to work.
 
 --------
@@ -56,8 +60,6 @@ Line breaks between the call and the comment are fine:
  */
 
 ```
-
-See the [examples](./examples) and the [roadmap](./ROADMAP.md).
 
 ## License
 
