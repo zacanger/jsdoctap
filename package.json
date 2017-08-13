@@ -11,7 +11,7 @@
   "main": "lib/index.js",
   "bin": "bin/index.js",
   "scripts": {
-    "test": "npm run test:lint && npm run test:tap",
+    "test": "npm run test:lint && npm run test:tap && npm run test:examples",
     "test:lint": "eslint -c .eslintrc.json lib bin test",
     "test:examples": "./examples.sh",
     "test:tap": "tap test/*.test.js | tap-spec"
