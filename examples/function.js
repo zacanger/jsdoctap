@@ -4,6 +4,6 @@
  *   // => [11, 12, 13]
  */
 
-module.exports = function map (arr, f) {
+function map (arr, f) {
   return arr.map(f)
 }

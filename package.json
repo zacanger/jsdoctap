@@ -13,8 +13,8 @@
   "scripts": {
     "test": "npm run test:lint && npm run test:tap",
     "test:lint": "eslint -c .eslintrc.json lib bin test",
-    "test:examples": "./run-examples.sh",
-    "test:tap": "tap test/*.test.js"
+    "test:examples": "./bin/index.js examples/* | tap-spec",
+    "test:tap": "tap test/*.test.js | tap-spec"
   },
   "homepage": "https://github.com/zacanger/jsdoctap#readme",
   "repository": {
@@ -38,7 +38,6 @@
     "babel-register": "6.24.1",
     "dox": "0.9.0",
     "lodash": "4.17.4",
-    "require-from-string": "1.2.1",
     "tap": "10.7.2"
   },
   "devDependencies": {
@@ -50,7 +49,8 @@
     "eslint-plugin-node": "5.1.1",
     "eslint-plugin-promise": "3.5.0",
     "eslint-plugin-standard": "3.0.1",
-    "eslint-plugin-unicorn": "2.1.2"
+    "eslint-plugin-unicorn": "2.1.2",
+    "tap-spec": "4.1.1"
   },
   "engines": {
     "node": ">=6.0.0"
