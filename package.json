@@ -13,8 +13,8 @@
   "scripts": {
     "test": "npm run test:lint && npm run test:tap && npm run test:examples",
     "test:examples": "./examples.sh",
-    "test:lint": "eslint -c .eslintrc.json lib bin test",
-    "test:tap": "tap test/*.test.js | tap-spec"
+    "test:lint": "eslint -c .eslintrc.json lib bin",
+    "test:tap": "tap lib/*.test.js | tap-spec"
   },
   "homepage": "https://github.com/zacanger/jsdoctap#readme",
   "repository": {
