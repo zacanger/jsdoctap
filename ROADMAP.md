@@ -2,4 +2,4 @@
 * Fix for multi-line examples
 * Remove lodash?
 * More tests and examples
-* Clean everything up
+* Clean everything up and remove dead code
