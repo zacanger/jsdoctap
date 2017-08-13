@@ -9,6 +9,8 @@ project](https://github.com/yamadapc/jsdoctest).
 * [Roadmap](./ROADMAP.md)
 * [Changes](./CHANGELOG.md)
 
+![screenshot](http://zacanger.com/jsdoctap.gif)
+
 --------
 
 ## Installation
