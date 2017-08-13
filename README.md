@@ -1,19 +1,13 @@
 # jsdoctap
 
-## WIP
-
-* [Examples](./examples)
-* [Roadmap](./ROADMAP.md)
-* [Changes](./CHANGELOG.md)
-
-This is _super_ rough right now, but it does seem to work.
-
---------
-
 Doctests using JSDoc examples and node-tap.
 
 Based on the hard work of [@yamadapc](https://github.com/yamadapc) and [this
 project](https://github.com/yamadapc/jsdoctest).
+
+* [Examples](./examples)
+* [Roadmap](./ROADMAP.md)
+* [Changes](./CHANGELOG.md)
 
 --------
 
