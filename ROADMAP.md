@@ -6,7 +6,9 @@
     const id = (a) => a
     map(id, [ 1, 2, 3, 4 ]) // => [ 1, 2, 3, 4 ]
     ```
-* Remove lodash?
+* Remove Lodash (already using zeelib for colors, so might as well use it for
+  the rest)
+* Clean up comment-parser and getModuleName (in tap)
 * Quickcheck-like features?
 * Type it (Flow, probably)
 * More tests and examples
