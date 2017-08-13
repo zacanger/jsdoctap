@@ -5,7 +5,7 @@ require('babel-polyfill')
 
 const { resolve } = require('path')
 const { run } = require('../lib')
-const { name, version } = require('../package.json')
+const { name, version, description } = require('../package.json')
 const c = require('zeelib/lib/colorize').default
 
 const fail = (err) => {
@@ -15,8 +15,9 @@ const fail = (err) => {
 
 const help = () => {
   console.log(`
-    ${c.blue(name)} - ${c.yellow(version)}
-    usage:
+    ${c.blue(name)} - ${c.blue(version)}
+    ${c.blue(description)}
+    Usage:
     ${c.green(name + ' some-file.js')}
     ${c.green(name + ' src/*.js')}
   `)
