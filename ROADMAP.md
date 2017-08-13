@@ -1,5 +1,6 @@
 * Babel support
 * Globbing might be messed up? May need to handle manually
+* Formatting of multi-line examples in output is totally wrong
 * Fix blocks that use helper functions. Failing example:
     ```javascript
     const id = (a) => a
