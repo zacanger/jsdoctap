@@ -5,7 +5,8 @@ require('babel-polyfill')
 
 const { resolve } = require('path')
 const { run } = require('../lib')
-const { version } = require('../package.json')
+const { name, version } = require('../package.json')
+const c = require('zeelib/lib/colorize').default
 
 const fail = (err) => {
   console.error(err.message || err)
@@ -14,9 +15,10 @@ const fail = (err) => {
 
 const help = () => {
   console.log(`
-    jsdoctap version ${version}
+    ${c.blue(name)} - ${c.yellow(version)}
     usage:
-    jsdoctap some-file.js
+    ${c.green(name + ' some-file.js')}
+    ${c.green(name + ' src/*.js')}
   `)
   process.exit(0)
 }
@@ -33,8 +35,6 @@ const main = (argv) => {
 
     if (failed) {
       fail(new Error('Tests failed'))
-    } else {
-      console.log('Tests passed')
     }
   })
 }
