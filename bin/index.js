@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-require('babel-register')
-require('babel-polyfill')
+// require('babel-register')
+// require('babel-polyfill')
 
 const { resolve } = require('path')
 const { run } = require('../lib')
