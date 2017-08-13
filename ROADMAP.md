@@ -1,4 +1,5 @@
 * Babel support
+* Globbing might be messed up? May need to handle manually
 * Fix blocks that use helper functions. Failing example:
     ```javascript
     const id = (a) => a
