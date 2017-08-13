@@ -2,7 +2,7 @@
 
 ## WIP
 
-**DOESN'T CURRENTLY DO ANYTHING**
+This is _super_ rough right now, but it does seem to work.
 
 --------
 
