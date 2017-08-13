@@ -26,7 +26,7 @@ I recommend adding it to your npm scripts. Example:
 ```json
 {
   "scripts": {
-    "test": "src/*.js"
+    "test": "jsdoctap src/*.js"
   }
 }
 ```
