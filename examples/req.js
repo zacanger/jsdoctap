@@ -1,7 +1,7 @@
-const _ = require('lodash')
+const m = require('zeelib/lib/map').default
 
 /**
- * Runs _.map
+ * Runs zeelib.map
  *
  * @example
  * map([1, 2, 3, 4], (a) => a + 10) //=> [11, 12, 13, 14]
@@ -12,6 +12,6 @@ const _ = require('lodash')
  */
 
 const map = (a, f) =>
-  _.map(a, f)
+  m(f, a)
 
 module.exports = map
