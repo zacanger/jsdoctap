@@ -33,7 +33,7 @@ I recommend adding it to your npm scripts. Example:
 
 ### Format
 
-Tests must be valid JavaScript under an `@example` in a valid JSDoc comment.
+Tests must be under an `@example` in a valid JSDoc comment.
 The return value to be tested against must come after a line comment with an
 arrow (Clojure REPL style):
 
@@ -56,6 +56,20 @@ Line breaks between the call and the comment are fine:
  */
 
 ```
+
+Line breaks in function calls currently do _not_ work:
+
+```javascript
+/**
+ * This will break!
+ * @example
+ * id(
+ *   1
+ * ) // => 1
+```
+
+Source and examples that need to be Babelified work just fine, as long as you
+have Babel configured and modules installed.
 
 ## License
 
