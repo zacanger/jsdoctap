@@ -6,7 +6,7 @@ Based on the hard work of [@yamadapc](https://github.com/yamadapc) and [this
 project](https://github.com/yamadapc/jsdoctest).
 
 * [Examples](./examples)
-* [Roadmap](./ROADMAP.md)
+* [Roadmap and known bugs](./ROADMAP.md)
 * [Changes](./CHANGELOG.md)
 
 ![screenshot](http://zacanger.com/jsdoctap.gif)
