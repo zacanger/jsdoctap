@@ -1,6 +1,6 @@
 # jsdoctap
 
-Doctests using JSDoc examples and node-tap.
+Test runner for doctests using JSDoc examples and node-tap.
 
 Based on the hard work of [@yamadapc](https://github.com/yamadapc) and [this
 project](https://github.com/yamadapc/jsdoctest).
