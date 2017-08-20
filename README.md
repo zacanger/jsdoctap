@@ -71,6 +71,19 @@ Line breaks in function calls currently do _not_ work:
 Source and examples that need to be Babelified work just fine, as long as you
 have Babel configured and modules installed.
 
+
+### API
+
+I strongly recommend just using this as a command-line test runner. However, it
+does have a basic Node API. Example:
+
+```javascript
+const t = require('jsdoctap')
+const { readdirSync } = require('fs')
+const files = readdirSync('./src')
+files.forEach((f) => { t('./src' + f) })
+```
+
 ## License
 
 [MIT](./LICENSE.md)
