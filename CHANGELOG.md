@@ -1,3 +1,6 @@
+* `0.3.0` - 2017-08-19
+  * Add Babel support. `jsdoctap` will now use your local Babel config and
+    modules. I really hope this didn't break something else.
 * `0.2.0` - 2017-08-15
   * Fix helpers/other declarations/whatever in examples. **Important** this
     partially kinda breaks one possible formatting. No single expression in an

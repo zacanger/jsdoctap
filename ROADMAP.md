@@ -1,4 +1,3 @@
-* Babel support
 * Multi-line function calls don't work
 * Clean up comment-parser and getModuleName (in tap)
 * Quickcheck-like features?
