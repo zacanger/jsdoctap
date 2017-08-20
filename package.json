@@ -9,6 +9,10 @@
   },
   "license": "WTFPL",
   "main": "lib/index.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
   "bin": "bin/index.js",
   "scripts": {
     "test": "npm run test:lint && npm run test:tap && npm run test:examples",
