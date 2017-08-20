@@ -1,8 +1,5 @@
 #!/usr/bin/env node
 
-// require('babel-register')
-// require('babel-polyfill')
-
 const { resolve } = require('path')
 const runTests = require('../lib')
 const { name, version, description } = require('../package.json')
