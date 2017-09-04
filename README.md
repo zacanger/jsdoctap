@@ -31,6 +31,11 @@ I recommend adding it to your npm scripts. Example:
 }
 ```
 
+### Options
+
+`jsdoctap` has one option: `-i` (or `--ignore`). Currently it can only be used
+once, and must be the first argument. Example: `jsdoctap -i src/*.test.js src/*.js`.
+
 ### Format
 
 Tests must be under an `@example` in a valid JSDoc comment.
@@ -91,6 +96,7 @@ files.forEach((f) => { t('./src' + f) })
   Babelified
 * Babel configs in package.json don't work
 * Clean up comment-parser and getModuleName (in tap)
+* Make `-i` flag flexible, and allow it to appear more than once
 * Quickcheck-like features?
 * Type it (Flow, probably)
 * More tests and examples
