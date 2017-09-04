@@ -87,7 +87,8 @@ files.forEach((f) => { t('./src' + f) })
 ## Roadmap
 
 * Multi-line function calls don't work
-* Currently does not work with dependencies that are ES modules
+* Currently does not work with imports/requires that use modules that need to be
+  Babelified
 * Babel configs in package.json don't work
 * Clean up comment-parser and getModuleName (in tap)
 * Quickcheck-like features?
