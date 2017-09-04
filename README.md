@@ -93,7 +93,6 @@ files.forEach((f) => { t('./src' + f) })
 
 * Fix multi-line function calls
 * Fix dependencies that need to be Babelified
-* Fix Babel config in package.json
 * Add ability to have custom test case name
 * Clean up comment-parser and getModuleName (in tap)
 * Make `-i` flag flexible, and allow it to appear more than once
