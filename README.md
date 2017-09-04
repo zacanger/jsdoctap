@@ -91,14 +91,14 @@ files.forEach((f) => { t('./src' + f) })
 
 ## Roadmap
 
-* Multi-line function calls don't work
-* Currently does not work with imports/requires that use modules that need to be
-  Babelified
-* Babel configs in package.json don't work
+* Fix multi-line function calls
+* Fix dependencies that need to be Babelified
+* Fix Babel config in package.json
+* Add ability to have custom test case name
 * Clean up comment-parser and getModuleName (in tap)
 * Make `-i` flag flexible, and allow it to appear more than once
 * Quickcheck-like features?
-* Type it (Flow, probably)
+* Type it? (Flow, probably)
 * More tests and examples
 
 ## License
