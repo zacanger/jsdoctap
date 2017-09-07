@@ -96,8 +96,6 @@ files.forEach((f) => { t('./src' + f) })
 * Add ability to have custom test case name
 * Clean up comment-parser and getModuleName (in tap)
 * Make `-i` flag flexible, and allow it to appear more than once
-* Quickcheck-like features?
-* Type it? (Flow, probably)
 * More tests and examples
 
 ## License
