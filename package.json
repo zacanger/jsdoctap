@@ -44,7 +44,7 @@
     "glob": "7.1.2",
     "require-from-string": "1.2.1",
     "tap": "10.7.2",
-    "zeelib": "3.0.10"
+    "zeelib": "3.0.13"
   },
   "devDependencies": {
     "babel-eslint": "7.2.3",

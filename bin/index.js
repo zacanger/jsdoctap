@@ -5,6 +5,8 @@ const runTests = require('../lib')
 const glob = require('glob')
 const { name, version, description } = require('../package.json')
 const c = require('zeelib/lib/colorize').default
+const findIndices = require('zeelib/lib/find-indices').default
+const keep = require('zeelib/lib/keep').default
 
 const help = () => {
   console.log(`
@@ -17,17 +19,21 @@ const help = () => {
   process.exit(0)
 }
 
+const srt = (a, b) => a - b
+const inc = (a) => a + 1
+
 const main = (argv) => {
   const first = argv[0]
-  let ignore
   if (!first || [ '-h', '--help', '-v', '--version' ].includes(first)) {
     help()
   }
 
-  if ([ '--ignore', '-i' ].includes(first)) {
-    ignore = argv[1]
-    argv = argv.slice(2)
-  }
+  const ignores = findIndices('-i', argv)
+    .concat(findIndices('--ignore', argv))
+    .sort(srt)
+    .map(inc)
+
+  const ignore = keep(argv.map((a, i) => ignores.includes(i) && a))
 
   argv.forEach((a) => {
     glob(a, { ignore }, (err, files) => {

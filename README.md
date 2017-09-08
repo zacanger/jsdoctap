@@ -33,8 +33,8 @@ I recommend adding it to your npm scripts. Example:
 
 ### Options
 
-`jsdoctap` has one option: `-i` (or `--ignore`). Currently it can only be used
-once, and must be the first argument. Example: `jsdoctap -i src/*.test.js src/*.js`.
+`jsdoctap` has one option: `-i` (or `--ignore`)
+Example: `jsdoctap -i src/*.test.js -i src/*.config.js src/*.js`.
 
 ### Format
 
@@ -95,7 +95,6 @@ files.forEach((f) => { t('./src' + f) })
 * Fix dependencies that need to be Babelified
 * Add ability to have custom test case name
 * Clean up comment-parser and getModuleName (in tap)
-* Make `-i` flag flexible, and allow it to appear more than once
 * More tests and examples
 
 ## License
