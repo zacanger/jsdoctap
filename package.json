@@ -44,16 +44,16 @@
     "glob": "7.1.2",
     "require-from-string": "2.0.1",
     "tap": "10.7.2",
-    "zeelib": "3.1.7"
+    "zeelib": "4.0.1"
   },
   "devDependencies": {
     "babel-eslint": "8.0.1",
-    "eslint": "4.8.0",
-    "eslint-config-jane": "0.5.6",
+    "eslint": "4.9.0",
+    "eslint-config-jane": "0.6.2",
     "eslint-plugin-babel": "4.1.2",
-    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-import": "2.8.0",
     "eslint-plugin-node": "5.2.0",
-    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-promise": "3.6.0",
     "eslint-plugin-unicorn": "2.1.2",
     "npm-run-all": "4.1.1",
     "tap-spec": "4.1.1"
