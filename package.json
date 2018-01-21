@@ -44,12 +44,12 @@
     "glob": "7.1.2",
     "require-from-string": "2.0.1",
     "tap": "11.0.1",
-    "zeelib": "4.0.7"
+    "zeelib": "5.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "8.0.3",
-    "eslint": "4.14.0",
-    "eslint-config-jane": "0.7.2",
+    "babel-eslint": "8.2.1",
+    "eslint": "4.16.0",
+    "eslint-config-jane": "0.7.3",
     "eslint-plugin-babel": "4.1.2",
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-node": "5.2.1",
