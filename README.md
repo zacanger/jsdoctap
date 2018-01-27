@@ -9,7 +9,7 @@ project](https://github.com/yamadapc/jsdoctest).
 * [Roadmap and known bugs](#roadmap)
 * [Changes](./CHANGELOG.md)
 
-![screenshot](http://zacanger.com/jsdoctap.gif)
+![screenshot](http://zacanger.com/assets/jsdoctap.gif)
 
 --------
 
