@@ -78,6 +78,7 @@ have Babel configured and modules installed.
 
 ## Roadmap
 
+* Handle expecting errors
 * Fix multi-line function calls
 * Fix dependencies that need to be Babelified
 * Add ability to have custom test case name
