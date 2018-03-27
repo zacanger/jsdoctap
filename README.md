@@ -59,7 +59,6 @@ Line breaks between the call and the comment are fine:
  *   id(1)
  *   // => 1
  */
-
 ```
 
 Line breaks in function calls currently do _not_ work:
@@ -71,6 +70,7 @@ Line breaks in function calls currently do _not_ work:
  * id(
  *   1
  * ) // => 1
+ */
 ```
 
 Source and examples that need to be Babelified work just fine, as long as you
