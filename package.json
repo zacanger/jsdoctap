@@ -15,6 +15,7 @@
   ],
   "bin": "bin/index.js",
   "scripts": {
+    "preversion": "npm t",
     "test": "run-s test:lint test:tap test:lib test:examples",
     "test:examples": "./bin/index.js examples/*.js | tap-spec",
     "test:lib": "./bin/index.js -i lib/*.test.js lib/*.js | tap-spec",
