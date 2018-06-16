@@ -1,4 +1,4 @@
-const m = require('zeelib/lib/map').default
+const m = require('zeelib/lib/map')
 
 /**
  * Runs zeelib.map

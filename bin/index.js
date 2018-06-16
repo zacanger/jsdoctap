@@ -4,9 +4,9 @@ const { resolve } = require('path')
 const runTests = require('../lib')
 const glob = require('glob')
 const { name, version, description } = require('../package.json')
-const c = require('zeelib/lib/colorize').default
-const findIndices = require('zeelib/lib/find-indices').default
-const keep = require('zeelib/lib/keep').default
+const c = require('zeelib/lib/colorize')
+const findIndices = require('zeelib/lib/find-indices')
+const keep = require('zeelib/lib/keep')
 
 const help = () => {
   console.log(`
