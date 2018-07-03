@@ -1,3 +1,5 @@
+* `0.5.7` - 2018-08-03
+  * Fix test cases that use double slashes in URLs. Thanks [@adw0rd](https://github.com/adw0rd)!
 * `0.3.0` - 2017-08-19
   * Add Babel support. `jsdoctap` will now use your local Babel config and
     modules. I really hope this didn't break something else.
